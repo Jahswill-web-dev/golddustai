@@ -1,7 +1,6 @@
 import Image from "next/image";
 import banner from "../public/images/banner-image.png";
 import Link from "next/link";
-// import Button from "./button";
 
 function Banner() {
     return (

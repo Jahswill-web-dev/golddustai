@@ -9,7 +9,7 @@ import Carousel from '../components/CarouselSlide';
 import Team from '../components/Team';
 import Process from '../components/process';
 import Cta2 from '../components/Cta2';
-import Contact from '../components/Contact';
+import Contact from '../components/contact';
 import Footer from '../components/Footer';
 // import styles from '../styles/Home.module.css'
 
