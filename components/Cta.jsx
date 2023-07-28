@@ -5,7 +5,7 @@ function Cta() {
     return (
         <div className="bg-secondary py-20 px-1">
             <h2 className="text-white text-center text-3xl sm:w-[90%] mx-auto">
-                Leverage Golddust's comprehensive AI expertise to identify opportunities for business growth and <i className="text-primary not-italic">stay ahead</i> in a constantly changing world.
+               {"Leverage Golddust's comprehensive AI expertise to identify opportunities for business growth and"} <i className="text-primary not-italic">stay ahead</i> in a constantly changing world.
             </h2>
             <br/> <p className="text-primary text-xl text-center">
                 Stay ahead by booking a free consultation call now!!

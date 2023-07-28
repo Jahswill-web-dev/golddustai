@@ -15,7 +15,7 @@ function Cta2() {
                     Book a free AI consultation call
                 </h2>
                 <br /> <p className="text-white w-[95%] mx-auto sm:mx-0 text-xl text-center sm:text-start">
-                    Take the first step towards a brighter future by booking your free call today. Don't delay, as these limited free consultation slots fill up quickly. Don't miss your chance – book now!
+                    {"Take the first step towards a brighter future by booking your free call today. Don't delay, as these limited free consultation slots fill up quickly. Don't miss your chance – book now!"}
                 </p>
 
                 <Link href="/">
