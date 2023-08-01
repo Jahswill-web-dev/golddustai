@@ -18,7 +18,7 @@ function Content() {
                     <h2 className="text-primary font-semibold text-3xl sm:text-2xl">
                         Golddust AI: Your Partner in AI-Powered Solutions
                     </h2>
-                    <p className="text-lg">Gold Dust AI is your artificial intelligence and analytics consulting firm, specializing in delivering end-to-end AI-powered solutions. From ideation to production, we guide you through the entire process, shaping your ideas into go-to-market solutions. With our expertise across multiple industries, we help businesses innovate with AI, enhance customer insights, automate workflows, and capture opportunities for profit maximization.</p>
+                    <p className="text-lg">Golddust AI is your artificial intelligence and analytics consulting firm, specializing in delivering end-to-end AI-powered solutions. From ideation to production, we guide you through the entire process, shaping your ideas into go-to-market solutions. With our expertise across multiple industries, we help businesses innovate with AI, enhance customer insights, automate workflows, and capture opportunities for profit maximization.</p>
                 </div>
             </div>
 
@@ -31,7 +31,7 @@ function Content() {
                 </div>
                 <div className="sm:w-[50%] sm:text-start text-secondary w-[90%]">
                     <h2 className="text-primary font-semibold text-3xl sm:text-2xl">Unlocking Business Potential: Harnessing the Power of AI/ML</h2>
-                    <p className="text-lg">At Gold Dust AI, we are dedicated to helping small and mid-size firms cut through complexity and implement AI/ML models for business value. As your trusted partner, we assist you in being cost efficient, automating processes, and leveraging the full potential of AI. Our expert guidance spans customer insights, workflow automation, onboarding processes, and more. Together, we unlock innovation and maximize profits through the transformative capabilities of AI.</p>
+                    <p className="text-lg">At Golddust AI, we are dedicated to helping small and mid-size firms cut through complexities and implement AI/ML models for business value. As your trusted partner, we assist you in being cost efficient when automating processes, and leveraging the full potential of AI. Our expert guidance spans customer insights, workflow automation, onboarding processes, AIOPS and more. Together, we unlock innovation and maximize profits through the transformative capabilities of AI.</p>
                 </div>
             </div>
         </div>

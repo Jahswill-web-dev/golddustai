@@ -4,7 +4,7 @@ import Link from "next/link";
 
 function Banner() {
     return (
-        <div className="relative h-screen flex items-center justify-center">
+        <div id="home" className="relative h-screen flex items-center justify-center">
             <div className="z-10 flex flex-col gap-3 w-[80%]">
                 <h1 className="text-white text-5xl">Golddust AI</h1>
                 <h4 className="text-3xl text-white w-80 sm:w-[90%]">
