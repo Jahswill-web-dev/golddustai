@@ -1,62 +1,61 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 // const dotenv = require('dotenv');
 // dotenv.config();
+
 const pass = process.env.PASS;
-const email = process.env.NEMAIL;
+const email = process.env.EMAIL;
+const host = process.env.HOST;
+
 let nodemailer = require('nodemailer');
-// export default async function handler(req, res){
+export default async function handler(req, res){
   
-//   const transport = nodemailer.createTransport({
-//     port: 465,
-//     host: "smtp.gmail.com",
-//     auth: {
-//       user: email,
-//       pass,
-//     },
-//     secure: true,
-//   });
+  const transport = nodemailer.createTransport({
+    port: 465,
+    host: "fast.3secureserver.xyz",
+    auth: {
+      user: email,
+      pass,
+    },
+    secure: true,
+  });
 
-//  const mailData = {
-//     from: email,
-//     to:email,
-//     subject: `Message From ${req.body.name}`,
-//     html: <div>{req.body.message}</div>
-//    }
+ const mailData = {
+    from: email,
+    to:email,
+    replyTo:`${req.body.email}`,
+    subject: `Message From ${req.body.name}`,
+   }
 
-//     try{
-//       await transport.sendMail({
-//         ...mailData,
-//         html:"<h1>this is a test</h1>",
-//         phone: req.body.phone,
-//       });
-//       console.log("Email sent successfully");
-//     return res.status(200).json({ message: "Email sent successfully" });
-//     } catch(error){
-//       console.log(error)
-//       return res.status(400).json({message: error.message})
-//     }
+    try{
+      await transport.sendMail({
+        ...mailData,
+        html:`
+        <p>Name:${req.body.name}</p>
+        <p>Email:${req.body.email}</p>
+        <p>Budget:${req.body.budget}</p>  
+        <p>Message:${req.body.message}</p>
+        `,
+      });
 
-  //  transport.sendMail(mailData, function (err, info) {
-  //   if(err)
-  //     console.log(err)
-  //   else
-  //     console.log(info)
-  // })
+      console.log("Email sent successfully");
+    return res.status(200).json({ message: "Email sent" });
+    } catch(error){
+      console.log(error)
+      return res.status(500).json({message: error.message})
+    }
 
-
-//   console.log(req.body)
-// }
-
-
-
-
-
-export default function handler(req, res) {
-  if(req.method === "POST"){
-    console.log(req.body);
-  }else{
-    console.log("method not accepted");
-  }
-  
-  res.status(200).json({ name: 'John Doe' })
 }
+
+
+
+
+
+// export default function handler(req, res) {
+//   if(req.method === "POST"){
+//     console.log(req.body);
+//   }else{
+//     console.log("method not accepted");
+//   }
+  
+//   res.status(200).json({ name: 'John Doe' })
+// }

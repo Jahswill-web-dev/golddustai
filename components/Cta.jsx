@@ -13,7 +13,7 @@ function Cta() {
             {/* <Button
                 bcontent="Book a free call"
             /> */}
-             <Link href="/">
+             <Link href="https://calendly.com/golddustai/business-consultaion-call">
                     <div className="text-white text-2xl font-semibold text-center bg-primary rounded-lg px-1 my-2 py-2.5 mx-auto w-[13rem]">
                        Book a free call
                     </div>

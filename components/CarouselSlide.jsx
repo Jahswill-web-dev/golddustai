@@ -130,7 +130,7 @@ function CarouselSlide() {
                         <div className="flex flex-col-reverse sm:flex-row ">
                             <div className="flex text-center sm:text-start flex-col flex-colsm:w-[50%] gap-3 sm:pl-5">
                                 <h3 className="text-2xl sm:font-semibold text-secondary">Book a free business consultation call to gain answers to these questions and much more</h3>
-                                <Link href="/">
+                                <Link href="https://calendly.com/golddustai/business-consultaion-call">
                                     <div className="text-white text-2xl mx-auto sm:mx-0 font-semibold text-center bg-primary rounded-lg px-1 my-2 py-2.5  w-[13rem]">
                                         Book a free call
                                     </div>

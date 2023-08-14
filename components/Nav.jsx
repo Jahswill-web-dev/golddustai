@@ -21,7 +21,7 @@ function Nav() {
                 <Link href="#services">Our Services</Link>
                 <Link href="#about">About Us</Link>
                 <Link href="#contact">Contact Us</Link>
-                <Link href="/">
+                <Link href="https://calendly.com/golddustai/business-consultaion-call">
                     <div className="text-white text-2xl mx-auto sm:mx-0 font-semibold text-center bg-primary rounded-lg px-1 my-2 py-2.5  w-[13rem]">
                         Book a free call
                     </div>

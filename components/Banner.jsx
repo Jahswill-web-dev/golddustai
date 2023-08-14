@@ -11,7 +11,7 @@ function Banner() {
                     AI consulting that <i className="text-primary not-italic">empowers</i> your business with Limitless <i className="text-primary not-italic">cutting-Edge</i> AI/ML solutions.
                 </h4>
                 {/* <Button bcontent="Schedule A Free Consultation Call" stb="heoll"/> */}
-                <Link href="/">
+                <Link href="https://calendly.com/golddustai/business-consultaion-call">
                     <div className="text-white text-lg text-center max-w-[20rem] bg-primary rounded-md px-1 my-2 py-2.5">
                     Schedule A Free Consultation Call
                     </div>

@@ -17,7 +17,7 @@ function Cta2() {
                     {"Gain clarity on AI strategies that drive real business results"}
                 </p>
 
-                <Link href="/">
+                <Link href="https://calendly.com/golddustai/business-consultaion-call">
                     <div className="text-white text-2xl font-semibold text-center 
                     bg-primary rounded-lg px-1 my-2 py-2.5 mx-auto flex items-center justify-center sm:mx-0 w-[13rem] my-5">
                         Book a free call
